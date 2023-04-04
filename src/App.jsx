@@ -50,11 +50,11 @@ function App() {
     });
 
     setData(quizData);
-    console.log(data, 'data');
   };
-
+  
   fetchTriviaData();
 }, []);
+console.log(data, 'data');
 
   const moneyPyramid = useMemo(
     () =>

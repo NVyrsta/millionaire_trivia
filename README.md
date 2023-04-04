@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Millionaire Trivia
+This project is a digital version of the popular game show **"Who Wants to Be a Millionaire"** where players answer a series of increasingly difficult trivia questions in order to win a virtual million dollars.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The questions are sourced from the Open Trivia Database API, which provides a wide range of categories and difficulties for the questions.
 
-## Available Scripts
+# How to Play
+To play the game, simply open the index.html file in your web browser. The game will start immediately and you will be presented with the first question.
 
-In the project directory, you can run:
+Each question will have four possible answers, and you must select the correct one in order to proceed to the next question. If you answer a question incorrectly, the game will end and you will have the option to start again from the beginning.
 
-### `npm start`
+If you successfully answer all 15 questions, you will win the virtual million dollars!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Features
+* 15 increasingly difficult trivia questions
+* Questions sourced from the Open Trivia Database API
+* Four possible answers per question
+* Correct answer revealed after each question
+* Virtual million dollars prize for completing all questions
+* Requirements
+* This project requires an internet connection in order to access the Open Trivia Database API and retrieve the trivia questions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Credits
+The questions are sourced from the Open Trivia Database API. The game is inspired by the TV show "Who Wants to Be a Millionaire".
